@@ -1,0 +1,43 @@
+{
+  "name": "zod-case-transformer",
+  "version": "1.0.0",
+  "description": "A powerful and type-safe utility for transforming Zod schemas between snake_case and camelCase preserving full Typescript type inference",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joehann/zod-case-transformer.git"
+  },
+  "keywords": [
+    "zod",
+    "typescript",
+    "snake",
+    "camel",
+    "case",
+    "schema",
+    "type",
+    "inference",
+    "infer",
+    "tranform",
+    "convert",
+    "api",
+    "response",
+    "format",
+    "formater"
+  ],
+  "author": "Johann Pouponnot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joehann/zod-case-transformer/issues"
+  },
+  "homepage": "https://github.com/Joehann/zod-case-transformer#readme",
+  "dependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "zod": "^3.24.2"
+  }
+}
